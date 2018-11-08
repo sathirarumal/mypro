@@ -1,0 +1,8 @@
+2018/11/08 07:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\softwears\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\softwears\xampp\htdocs\sra\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sra/index.php?r=gii
+---
