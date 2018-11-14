@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/softwears/xampp/htdocs/sra/protected/controllers/addController.php</file>
+            <file>file:/C:/softwears/xampp/htdocs/sra/protected/models/LoginForm.php</file>
             <file>file:/C:/softwears/xampp/htdocs/sra/protected/models/UserDetails.php</file>
-            <file>file:/C:/softwears/xampp/htdocs/sra/protected/views/Sum/addform.php</file>
-            <file>file:/C:/softwears/xampp/htdocs/sra/protected/models/sum.php</file>
-            <file>file:/C:/softwears/xampp/htdocs/sra/protected/config/main.php</file>
         </group>
     </open-files>
 </project-private>
