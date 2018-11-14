@@ -15,27 +15,27 @@ class myController extends CController {
     //put your code here
     public function actionView()
     {
-      $model=new Info;  
+      //$model=new Info;  
       $d= Info::model()->findByPk(1);
       $Name = $d->name;
-       $this->render('index',array('name'=>$Name,'model'=>$model));
+       $this->render('index',array('name'=>$Name));
     }
     
     public function actionReg()
 {
-     $model=new Info;
-     if(isset($_POST['Info']))
-     {
-         $model->attributes = $_POST['Info'];
-         if ($model->save()) {
-            Yii::app()->user->setFlash('success', 'You have successfully added.');
-            $this->redirect(array('index'));
-        }
-         // or if(!$model->save()){ print_r($model->getErrors())} 
-    }
-    $this->render('index',array(
+    $model=new Info;
+    if(isset($_POST['Info']))
+		{
+			$model->attributes=$_POST['Info'];
+			if($model->save()){
+	$this->render('add',array(
+                    'model'=>$model
+           )); 
+		}
+     $this->render('add',array(
                     'model'=>$model,
            )); 
 }
     
+}
 }
