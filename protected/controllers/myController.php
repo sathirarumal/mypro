@@ -23,19 +23,38 @@ class myController extends CController {
     
     public function actionReg()
 {
+     //var_dump($_POST['Info']); die();  
+        
     $model=new Info;
-    if(isset($_POST['Info']))
-		{
-			$model->attributes=$_POST['Info'];
-			if($model->save()){
-	$this->render('add',array(
+    
+    if(isset($_POST['Info'])){
+        
+       // var_dump($_POST['Info']); die();
+        $model->attributes=$_POST['Info'];
+        
+	if($model->save()){
+            $this->render('add',array(
                     'model'=>$model
            )); 
-		}
-     $this->render('add',array(
+	}
+        else{
+            $this->render('add',array(
+                    'model'=>$model,
+           ));            
+        }        
+        
+    }else{
+    $this->render('add',array(
                     'model'=>$model,
            )); 
+    }
 }
-    
-}
+
+
+
+
+
+
+
+
 }

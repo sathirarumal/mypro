@@ -5373,3 +5373,31 @@ Stack trace:
 REQUEST_URI=/sra/index.php?r=my/Reg
 in C:\softwears\xampp\htdocs\sra\protected\controllers\myController.php (31)
 in C:\softwears\xampp\htdocs\sra\index.php (13)
+2018/11/14 07:39:55 [error] [php] Undefined index: Info (C:\softwears\xampp\htdocs\sra\protected\controllers\myController.php:26)
+Stack trace:
+#0 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(286): myController->runAction()
+#1 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(265): myController->runActionWithFilters()
+#2 C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php(282): myController->run()
+#3 C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\softwears\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\softwears\xampp\htdocs\sra\index.php(13): CWebApplication->run()
+REQUEST_URI=/sra/index.php?r=my/Reg
+in C:\softwears\xampp\htdocs\sra\protected\controllers\myController.php (26)
+in C:\softwears\xampp\htdocs\sra\index.php (13)
+2018/11/14 07:43:29 [error] [php] Undefined variable: model (C:\softwears\xampp\htdocs\sra\protected\views\my\index.php:11)
+Stack trace:
+#0 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(872): myController->renderFile()
+#1 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(785): myController->renderPartial()
+#2 C:\softwears\xampp\htdocs\sra\protected\controllers\myController.php(21): myController->render()
+#3 C:\softwears\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): myController->actionView()
+#4 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(286): myController->runAction()
+#6 C:\softwears\xampp\htdocs\yii\framework\web\CController.php(265): myController->runActionWithFilters()
+#7 C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php(282): myController->run()
+#8 C:\softwears\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\softwears\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\softwears\xampp\htdocs\sra\index.php(13): CWebApplication->run()
+REQUEST_URI=/sra/index.php?r=my/View
+in C:\softwears\xampp\htdocs\sra\protected\views\my\index.php (11)
+in C:\softwears\xampp\htdocs\sra\protected\controllers\myController.php (21)
+in C:\softwears\xampp\htdocs\sra\index.php (13)
