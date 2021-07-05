@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Create UserDetails', 'url'=>array('create')),
 	array('label'=>'Manage UserDetails', 'url'=>array('admin')),
+        array('label'=>'adding 2 numbers', 'url'=>array('add')),
 );
 ?>
 

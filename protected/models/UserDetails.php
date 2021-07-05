@@ -57,12 +57,12 @@ class UserDetails extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'user_id' => 'User',
-			'username' => 'Username',
+			'user_id' => 'User No',
+			'username' => 'User Name',
 			'first_name' => 'First Name',
 			'last_name' => 'Last Name',
 			'gender' => 'Gender',
-			'password' => 'Password',
+			'password' => 'Password(encripted)',
 			'status' => 'Status',
 		);
 	}
